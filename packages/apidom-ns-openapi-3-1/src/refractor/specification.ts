@@ -199,6 +199,54 @@ const specification = {
             trace: {
               $ref: '#/visitors/document/objects/Operation',
             },
+            send: {
+              $ref: '#/visitors/document/objects/Operation',
+            },
+            set: {
+              $ref: '#/visitors/document/objects/Operation',
+            },
+            update: {
+              $ref: '#/visitors/document/objects/Operation',
+            },
+            replace: {
+              $ref: '#/visitors/document/objects/Operation',
+            },
+            save: {
+              $ref: '#/visitors/document/objects/Operation',
+            },
+            upload: {
+              $ref: '#/visitors/document/objects/Operation',
+            },
+            create: {
+              $ref: '#/visitors/document/objects/Operation',
+            },
+            import: {
+              $ref: '#/visitors/document/objects/Operation',
+            },
+            move: {
+              $ref: '#/visitors/document/objects/Operation',
+            },
+            fetch: {
+              $ref: '#/visitors/document/objects/Operation',
+            },
+            validate: {
+              $ref: '#/visitors/document/objects/Operation',
+            },
+            duplicate: {
+              $ref: '#/visitors/document/objects/Operation',
+            },
+            add: {
+              $ref: '#/visitors/document/objects/Operation',
+            },
+            convert: {
+              $ref: '#/visitors/document/objects/Operation',
+            },
+            trigger: {
+              $ref: '#/visitors/document/objects/Operation',
+            },
+            cancel: {
+              $ref: '#/visitors/document/objects/Operation',
+            },
             servers: OpenApi3_0Specification.visitors.document.objects.PathItem.fixedFields.servers,
             parameters:
               OpenApi3_0Specification.visitors.document.objects.PathItem.fixedFields.parameters,

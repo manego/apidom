@@ -188,6 +188,54 @@ const schema = {
     trace(...args: any[]) {
       return new OperationElement(...args);
     },
+    send(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    set(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    update(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    replace(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    save(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    upload(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    create(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    import(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    move(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    fetch(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    validate(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    duplicate(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    add(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    convert(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    trigger(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    cancel(...args: any[]) {
+      return new OperationElement(...args);
+    },
     servers(...args: any[]) {
       return new PathItemServersElement(...args);
     },
