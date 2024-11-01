@@ -164,76 +164,133 @@ const schema = {
     },
   },
   PathItemElement: {
-    get(...args: any[]) {
-      return new OperationElement(...args);
-    },
-    put(...args: any[]) {
-      return new OperationElement(...args);
-    },
-    post(...args: any[]) {
-      return new OperationElement(...args);
-    },
-    delete(...args: any[]) {
-      return new OperationElement(...args);
-    },
-    options(...args: any[]) {
-      return new OperationElement(...args);
-    },
-    head(...args: any[]) {
-      return new OperationElement(...args);
-    },
-    patch(...args: any[]) {
-      return new OperationElement(...args);
-    },
-    trace(...args: any[]) {
-      return new OperationElement(...args);
-    },
-    send(...args: any[]) {
-      return new OperationElement(...args);
-    },
-    set(...args: any[]) {
-      return new OperationElement(...args);
-    },
-    update(...args: any[]) {
-      return new OperationElement(...args);
-    },
-    replace(...args: any[]) {
-      return new OperationElement(...args);
-    },
-    save(...args: any[]) {
-      return new OperationElement(...args);
-    },
-    upload(...args: any[]) {
-      return new OperationElement(...args);
-    },
-    create(...args: any[]) {
-      return new OperationElement(...args);
-    },
-    import(...args: any[]) {
-      return new OperationElement(...args);
-    },
-    move(...args: any[]) {
-      return new OperationElement(...args);
-    },
-    fetch(...args: any[]) {
-      return new OperationElement(...args);
-    },
-    validate(...args: any[]) {
-      return new OperationElement(...args);
-    },
-    duplicate(...args: any[]) {
+    accept(...args: any[]) {
       return new OperationElement(...args);
     },
     add(...args: any[]) {
       return new OperationElement(...args);
     },
+    apply(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    cancel(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    changepassword(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    changeusername(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    check(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    checkauth(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    consent(...args: any[]) {
+      return new OperationElement(...args);
+    },
     convert(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    create(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    delete(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    duplicate(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    export(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    fetch(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    get(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    head(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    import(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    invalidate(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    login(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    logout(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    move(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    options(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    patch(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    post(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    process(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    put(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    recoverpassword(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    renewtoken(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    replace(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    reqchangeusername(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    revoke(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    save(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    send(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    sendmail(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    set(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    start(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    trace(...args: any[]) {
       return new OperationElement(...args);
     },
     trigger(...args: any[]) {
       return new OperationElement(...args);
     },
-    cancel(...args: any[]) {
+    update(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    upload(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    validate(...args: any[]) {
+      return new OperationElement(...args);
+    },
+    verifysso(...args: any[]) {
       return new OperationElement(...args);
     },
     servers(...args: any[]) {

@@ -175,77 +175,134 @@ const specification = {
             summary: OpenApi3_0Specification.visitors.document.objects.PathItem.fixedFields.summary,
             description:
               OpenApi3_0Specification.visitors.document.objects.PathItem.fixedFields.description,
-            get: {
-              $ref: '#/visitors/document/objects/Operation',
-            },
-            put: {
-              $ref: '#/visitors/document/objects/Operation',
-            },
-            post: {
-              $ref: '#/visitors/document/objects/Operation',
-            },
-            delete: {
-              $ref: '#/visitors/document/objects/Operation',
-            },
-            options: {
-              $ref: '#/visitors/document/objects/Operation',
-            },
-            head: {
-              $ref: '#/visitors/document/objects/Operation',
-            },
-            patch: {
-              $ref: '#/visitors/document/objects/Operation',
-            },
-            trace: {
-              $ref: '#/visitors/document/objects/Operation',
-            },
-            send: {
-              $ref: '#/visitors/document/objects/Operation',
-            },
-            set: {
-              $ref: '#/visitors/document/objects/Operation',
-            },
-            update: {
-              $ref: '#/visitors/document/objects/Operation',
-            },
-            replace: {
-              $ref: '#/visitors/document/objects/Operation',
-            },
-            save: {
-              $ref: '#/visitors/document/objects/Operation',
-            },
-            upload: {
-              $ref: '#/visitors/document/objects/Operation',
-            },
-            create: {
-              $ref: '#/visitors/document/objects/Operation',
-            },
-            import: {
-              $ref: '#/visitors/document/objects/Operation',
-            },
-            move: {
-              $ref: '#/visitors/document/objects/Operation',
-            },
-            fetch: {
-              $ref: '#/visitors/document/objects/Operation',
-            },
-            validate: {
-              $ref: '#/visitors/document/objects/Operation',
-            },
-            duplicate: {
-              $ref: '#/visitors/document/objects/Operation',
+            accept: {
+              $ref: '#/visitors/document/objects/Operation'
             },
             add: {
-              $ref: '#/visitors/document/objects/Operation',
+              $ref: '#/visitors/document/objects/Operation'
             },
-            convert: {
-              $ref: '#/visitors/document/objects/Operation',
-            },
-            trigger: {
-              $ref: '#/visitors/document/objects/Operation',
+            apply: {
+              $ref: '#/visitors/document/objects/Operation'
             },
             cancel: {
-              $ref: '#/visitors/document/objects/Operation',
+              $ref: '#/visitors/document/objects/Operation'
+            },
+            changepassword: {
+              $ref: '#/visitors/document/objects/Operation'
+            },
+            changeusername: {
+              $ref: '#/visitors/document/objects/Operation'
+            },
+            check: {
+              $ref: '#/visitors/document/objects/Operation'
+            },
+            checkauth: {
+              $ref: '#/visitors/document/objects/Operation'
+            },
+            consent: {
+              $ref: '#/visitors/document/objects/Operation'
+            },
+            convert: {
+              $ref: '#/visitors/document/objects/Operation'
+            },
+            create: {
+              $ref: '#/visitors/document/objects/Operation'
+            },
+            delete: {
+              $ref: '#/visitors/document/objects/Operation'
+            },
+            duplicate: {
+              $ref: '#/visitors/document/objects/Operation'
+            },
+            export: {
+              $ref: '#/visitors/document/objects/Operation'
+            },
+            fetch: {
+              $ref: '#/visitors/document/objects/Operation'
+            },
+            get: {
+              $ref: '#/visitors/document/objects/Operation'
+            },
+            head: {
+              $ref: '#/visitors/document/objects/Operation'
+            },
+            import: {
+              $ref: '#/visitors/document/objects/Operation'
+            },
+            invalidate: {
+              $ref: '#/visitors/document/objects/Operation'
+            },
+            login: {
+              $ref: '#/visitors/document/objects/Operation'
+            },
+            logout: {
+              $ref: '#/visitors/document/objects/Operation'
+            },
+            move: {
+              $ref: '#/visitors/document/objects/Operation'
+            },
+            options: {
+              $ref: '#/visitors/document/objects/Operation'
+            },
+            patch: {
+              $ref: '#/visitors/document/objects/Operation'
+            },
+            post: {
+              ref: '#/visitors/document/objects/Operation'
+            },
+            process: {
+              $ref: '#/visitors/document/objects/Operation'
+            },
+            put: {
+              $ref: '#/visitors/document/objects/Operation'
+            },
+            recoverpassword: {
+              $ref: '#/visitors/document/objects/Operation'
+            },
+            renewtoken: {
+              $ref: '#/visitors/document/objects/Operation'
+            },
+            replace: {
+              $ref: '#/visitors/document/objects/Operation'
+            },
+            reqchangeusername: {
+              $ref: '#/visitors/document/objects/Operation'
+            },
+            revoke: {
+              $ref: '#/visitors/document/objects/Operation'
+            },
+            save: {
+              $ref: '#/visitors/document/objects/Operation'
+            },
+            send: {
+              $ref: '#/visitors/document/objects/Operation'
+            },
+            sendmail: {
+              $ref: '#/visitors/document/objects/Operation'
+            },
+            set: {
+              $ref: '#/visitors/document/objects/Operation'
+            },
+            start: {
+              $ref: '#/visitors/document/objects/Operation'
+            },
+            trace: {
+              $ref: '#/visitors/document/objects/Operation'
+            },
+            trigger: {
+              $ref: '#/visitors/document/objects/Operation'
+            },
+            update: {
+              $ref: '#/visitors/document/objects/Operation'
+            },
+            upload: {
+              $ref: '#/visitors/document/objects/Operation'
+            },
+            validate: {
+              $ref: '#/visitors/document/objects/Operation'
+            },
+            verifysso: {
+              $ref: '#/visitors/document/objects/Operation'
             },
             servers: OpenApi3_0Specification.visitors.document.objects.PathItem.fixedFields.servers,
             parameters:
